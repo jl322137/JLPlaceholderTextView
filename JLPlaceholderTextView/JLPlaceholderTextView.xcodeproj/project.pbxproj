@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D5E6AEA1A9E090F00C85E13 /* OCUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D5E6AE91A9E090F00C85E13 /* OCUtils.m */; };
 		3DC003751A9DF04F008C30B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC003741A9DF04F008C30B7 /* AppDelegate.swift */; };
 		3DC003771A9DF04F008C30B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC003761A9DF04F008C30B7 /* ViewController.swift */; };
 		3DC0037A1A9DF04F008C30B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC003781A9DF04F008C30B7 /* Main.storyboard */; };
@@ -27,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D5E6AE71A9E090F00C85E13 /* JLPlaceholderTextView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JLPlaceholderTextView-Bridging-Header.h"; sourceTree = "<group>"; };
+		3D5E6AE81A9E090F00C85E13 /* OCUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCUtils.h; sourceTree = "<group>"; };
+		3D5E6AE91A9E090F00C85E13 /* OCUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCUtils.m; sourceTree = "<group>"; };
 		3DC0036F1A9DF04F008C30B7 /* JLPlaceholderTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLPlaceholderTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC003731A9DF04F008C30B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DC003741A9DF04F008C30B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,11 +85,14 @@
 			children = (
 				3DC003741A9DF04F008C30B7 /* AppDelegate.swift */,
 				3DC003761A9DF04F008C30B7 /* ViewController.swift */,
+				3D5E6AE81A9E090F00C85E13 /* OCUtils.h */,
+				3D5E6AE91A9E090F00C85E13 /* OCUtils.m */,
 				3DC003941A9DF06E008C30B7 /* JLPlaceholderTextView.swift */,
 				3DC003781A9DF04F008C30B7 /* Main.storyboard */,
 				3DC0037B1A9DF04F008C30B7 /* Images.xcassets */,
 				3DC0037D1A9DF04F008C30B7 /* LaunchScreen.xib */,
 				3DC003721A9DF04F008C30B7 /* Supporting Files */,
+				3D5E6AE71A9E090F00C85E13 /* JLPlaceholderTextView-Bridging-Header.h */,
 			);
 			path = JLPlaceholderTextView;
 			sourceTree = "<group>";
@@ -218,6 +225,7 @@
 				3DC003771A9DF04F008C30B7 /* ViewController.swift in Sources */,
 				3DC003951A9DF06E008C30B7 /* JLPlaceholderTextView.swift in Sources */,
 				3DC003751A9DF04F008C30B7 /* AppDelegate.swift in Sources */,
+				3D5E6AEA1A9E090F00C85E13 /* OCUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,9 +348,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = JLPlaceholderTextView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JLPlaceholderTextView/JLPlaceholderTextView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,9 +361,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = JLPlaceholderTextView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JLPlaceholderTextView/JLPlaceholderTextView-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +422,7 @@
 				3DC003901A9DF04F008C30B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DC003911A9DF04F008C30B7 /* Build configuration list for PBXNativeTarget "JLPlaceholderTextViewTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +431,7 @@
 				3DC003931A9DF04F008C30B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

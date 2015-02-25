@@ -18,10 +18,12 @@ class JLPlaceholderTextView: UITextView {
     let label: UILabel
 
     required init(coder aDecoder: NSCoder) {
-        label = UILabel(frame: CGRect(x: 6, y: 6, width: 100, height: 20))
+        label = UILabel()
         
         super.init(coder: aDecoder)
         
+        let string: NSString = placeholder
+        placeholder = string
         label.font = UIFont.systemFontOfSize(placeholderFontSize)
         label.text = placeholder
         label.textColor = placeholderFontColor
@@ -39,11 +41,13 @@ class JLPlaceholderTextView: UITextView {
         }
     }
     
-    @IBInspectable var placeholder: NSString = "a placeholder" {
+    @IBInspectable var placeholder: NSString = "a placeholdera placeholdera placeholdera placeholdera placeholdera placeholdera placeholder" {
         didSet {
             label.text = placeholder
             let string: NSString = label.text!
-//            var size: CGSize = string.boundingRectWithSize(CGSize(width: self.bounds.size.width, height: 0), options: NSStringDrawingOptions.UsesLineFragmentOrigin | NSStringDrawingOptions.UsesFontLeading, attributes: [], context: nil).size
+            let s: CGSize = CGSize(width: self.bounds.size.width, height: 0)
+            var size: CGSize = string.boundingRectWithSize(s, options:OCUtils.stringDrawingOptions(), attributes:self.font.fontDescriptor().fontAttributes(), context: nil).size
+            self.label.frame = CGRect(origin: CGPoint(x: 6, y: 6), size: size)
         }
     }
     
@@ -57,6 +61,12 @@ class JLPlaceholderTextView: UITextView {
         didSet {
             label.textColor = placeholderFontColor
         }
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        let string: NSString = placeholder
+        placeholder = string
     }
     
     deinit {
