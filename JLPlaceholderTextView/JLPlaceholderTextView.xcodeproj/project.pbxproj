@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DC003751A9DF04F008C30B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC003741A9DF04F008C30B7 /* AppDelegate.swift */; };
+		3DC003771A9DF04F008C30B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC003761A9DF04F008C30B7 /* ViewController.swift */; };
+		3DC0037A1A9DF04F008C30B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC003781A9DF04F008C30B7 /* Main.storyboard */; };
+		3DC0037C1A9DF04F008C30B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC0037B1A9DF04F008C30B7 /* Images.xcassets */; };
+		3DC0037F1A9DF04F008C30B7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DC0037D1A9DF04F008C30B7 /* LaunchScreen.xib */; };
+		3DC0038B1A9DF04F008C30B7 /* JLPlaceholderTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC0038A1A9DF04F008C30B7 /* JLPlaceholderTextViewTests.swift */; };
+		3DC003951A9DF06E008C30B7 /* JLPlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC003941A9DF06E008C30B7 /* JLPlaceholderTextView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DC003851A9DF04F008C30B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DC003671A9DF04F008C30B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DC0036E1A9DF04F008C30B7;
+			remoteInfo = JLPlaceholderTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DC0036F1A9DF04F008C30B7 /* JLPlaceholderTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLPlaceholderTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC003731A9DF04F008C30B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DC003741A9DF04F008C30B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DC003761A9DF04F008C30B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DC003791A9DF04F008C30B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DC0037B1A9DF04F008C30B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3DC0037E1A9DF04F008C30B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3DC003841A9DF04F008C30B7 /* JLPlaceholderTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLPlaceholderTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC003891A9DF04F008C30B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DC0038A1A9DF04F008C30B7 /* JLPlaceholderTextViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLPlaceholderTextViewTests.swift; sourceTree = "<group>"; };
+		3DC003941A9DF06E008C30B7 /* JLPlaceholderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLPlaceholderTextView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DC0036C1A9DF04F008C30B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC003811A9DF04F008C30B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DC003661A9DF04F008C30B7 = {
+			isa = PBXGroup;
+			children = (
+				3DC003711A9DF04F008C30B7 /* JLPlaceholderTextView */,
+				3DC003871A9DF04F008C30B7 /* JLPlaceholderTextViewTests */,
+				3DC003701A9DF04F008C30B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DC003701A9DF04F008C30B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DC0036F1A9DF04F008C30B7 /* JLPlaceholderTextView.app */,
+				3DC003841A9DF04F008C30B7 /* JLPlaceholderTextViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DC003711A9DF04F008C30B7 /* JLPlaceholderTextView */ = {
+			isa = PBXGroup;
+			children = (
+				3DC003741A9DF04F008C30B7 /* AppDelegate.swift */,
+				3DC003761A9DF04F008C30B7 /* ViewController.swift */,
+				3DC003941A9DF06E008C30B7 /* JLPlaceholderTextView.swift */,
+				3DC003781A9DF04F008C30B7 /* Main.storyboard */,
+				3DC0037B1A9DF04F008C30B7 /* Images.xcassets */,
+				3DC0037D1A9DF04F008C30B7 /* LaunchScreen.xib */,
+				3DC003721A9DF04F008C30B7 /* Supporting Files */,
+			);
+			path = JLPlaceholderTextView;
+			sourceTree = "<group>";
+		};
+		3DC003721A9DF04F008C30B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DC003731A9DF04F008C30B7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DC003871A9DF04F008C30B7 /* JLPlaceholderTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DC0038A1A9DF04F008C30B7 /* JLPlaceholderTextViewTests.swift */,
+				3DC003881A9DF04F008C30B7 /* Supporting Files */,
+			);
+			path = JLPlaceholderTextViewTests;
+			sourceTree = "<group>";
+		};
+		3DC003881A9DF04F008C30B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DC003891A9DF04F008C30B7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DC0036E1A9DF04F008C30B7 /* JLPlaceholderTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC0038E1A9DF04F008C30B7 /* Build configuration list for PBXNativeTarget "JLPlaceholderTextView" */;
+			buildPhases = (
+				3DC0036B1A9DF04F008C30B7 /* Sources */,
+				3DC0036C1A9DF04F008C30B7 /* Frameworks */,
+				3DC0036D1A9DF04F008C30B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLPlaceholderTextView;
+			productName = JLPlaceholderTextView;
+			productReference = 3DC0036F1A9DF04F008C30B7 /* JLPlaceholderTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DC003831A9DF04F008C30B7 /* JLPlaceholderTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DC003911A9DF04F008C30B7 /* Build configuration list for PBXNativeTarget "JLPlaceholderTextViewTests" */;
+			buildPhases = (
+				3DC003801A9DF04F008C30B7 /* Sources */,
+				3DC003811A9DF04F008C30B7 /* Frameworks */,
+				3DC003821A9DF04F008C30B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DC003861A9DF04F008C30B7 /* PBXTargetDependency */,
+			);
+			name = JLPlaceholderTextViewTests;
+			productName = JLPlaceholderTextViewTests;
+			productReference = 3DC003841A9DF04F008C30B7 /* JLPlaceholderTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DC003671A9DF04F008C30B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Aimy;
+				TargetAttributes = {
+					3DC0036E1A9DF04F008C30B7 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					3DC003831A9DF04F008C30B7 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 3DC0036E1A9DF04F008C30B7;
+					};
+				};
+			};
+			buildConfigurationList = 3DC0036A1A9DF04F008C30B7 /* Build configuration list for PBXProject "JLPlaceholderTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DC003661A9DF04F008C30B7;
+			productRefGroup = 3DC003701A9DF04F008C30B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DC0036E1A9DF04F008C30B7 /* JLPlaceholderTextView */,
+				3DC003831A9DF04F008C30B7 /* JLPlaceholderTextViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DC0036D1A9DF04F008C30B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC0037A1A9DF04F008C30B7 /* Main.storyboard in Resources */,
+				3DC0037F1A9DF04F008C30B7 /* LaunchScreen.xib in Resources */,
+				3DC0037C1A9DF04F008C30B7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC003821A9DF04F008C30B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DC0036B1A9DF04F008C30B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC003771A9DF04F008C30B7 /* ViewController.swift in Sources */,
+				3DC003951A9DF06E008C30B7 /* JLPlaceholderTextView.swift in Sources */,
+				3DC003751A9DF04F008C30B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC003801A9DF04F008C30B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC0038B1A9DF04F008C30B7 /* JLPlaceholderTextViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DC003861A9DF04F008C30B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DC0036E1A9DF04F008C30B7 /* JLPlaceholderTextView */;
+			targetProxy = 3DC003851A9DF04F008C30B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DC003781A9DF04F008C30B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DC003791A9DF04F008C30B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DC0037D1A9DF04F008C30B7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DC0037E1A9DF04F008C30B7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DC0038C1A9DF04F008C30B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DC0038D1A9DF04F008C30B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DC0038F1A9DF04F008C30B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JLPlaceholderTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3DC003901A9DF04F008C30B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JLPlaceholderTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3DC003921A9DF04F008C30B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JLPlaceholderTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLPlaceholderTextView.app/JLPlaceholderTextView";
+			};
+			name = Debug;
+		};
+		3DC003931A9DF04F008C30B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JLPlaceholderTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLPlaceholderTextView.app/JLPlaceholderTextView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DC0036A1A9DF04F008C30B7 /* Build configuration list for PBXProject "JLPlaceholderTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC0038C1A9DF04F008C30B7 /* Debug */,
+				3DC0038D1A9DF04F008C30B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DC0038E1A9DF04F008C30B7 /* Build configuration list for PBXNativeTarget "JLPlaceholderTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC0038F1A9DF04F008C30B7 /* Debug */,
+				3DC003901A9DF04F008C30B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DC003911A9DF04F008C30B7 /* Build configuration list for PBXNativeTarget "JLPlaceholderTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC003921A9DF04F008C30B7 /* Debug */,
+				3DC003931A9DF04F008C30B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DC003671A9DF04F008C30B7 /* Project object */;
+}
